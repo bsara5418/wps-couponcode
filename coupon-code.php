@@ -1,7 +1,7 @@
 <?php
 
 $hostedButtonId = "";
-$amount = 0;
+$amount = 100.00;
 
 $arr = array(
 "take5" => array("hostedButtonId" => "", "discount" => "5"),
@@ -13,8 +13,8 @@ $arr = array(
 		if ($key == $_POST["couponCode"])
 		{
 			$hostedButtonId = $value["hostedButtonId"];
-			$discount = $value["discount"];
-			$amount = ($amount - $discount);
+			$discount = $value["$100.00"];
+			$amount = ($amount -$100.00 $discount);
 			break;
 		}
 	}
